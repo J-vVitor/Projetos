@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form id="formu">
+            <h1> Formulário de cadastro</h1>
+            <ul>
+                <li>Neu um campo pode estar vazio</li>
+                <li>Usuário só podera conter letras e/ou número</li>
+                <li>Usuário deverá ter entre 3 e 12 caractere</li>
+                <li>Senha precisa ter entre 6 e 12 caractere</li>
+            </ul>
+            
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" class="campos">
+            <p class="textName"></p>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" class="campos">
+            <p class="textSobrenome"></p>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" class="campos">
+            <p class="textcpf"></p>
+
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" class="campos">
+            <p class="textUsuario"></p>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" class="campos">
+            <p class="textSenha"></p>
+
+            <label for="repetir_senha">Repetir senha:</label>
+            <input type="password" id="repetir_senha" class="campos">
+            <p class="textRsenha"></p>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Coded by <a href="https://github.com/J-vVitor" target="_blank">João Vitor</a></p>
+    </footer>
+
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
