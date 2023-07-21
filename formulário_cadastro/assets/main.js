@@ -1,12 +1,13 @@
 const formulario = document.querySelector('#formu');
 const nomeInput = document.querySelector('#nome')
 const sobrenomeInput = document.querySelector('#sobrenome')
+const usuario = document.querySelector('#usuario')
 const cpf = document.querySelector('#cpf')
 const senha = document.querySelector('#senha')
 const repetirSenha = document.querySelector('#repetirSenha')
 
 const textName = document.querySelector('.textName')
-const textSobrenome = document.querySelector('.texSobrenome')
+const textSobrenome = document.querySelector('.textSobrenome')
 const textcpf = document.querySelector('.textcpf')
 const textUsuario = document.querySelector('.textUsuario')
 const textSenha = document.querySelector('.textSenha')
@@ -25,17 +26,17 @@ formulario.addEventListener('submit', e => {
 formulario.addEventListener('submit', () => {
 
     if (campos.value === '') {
-        alert('Preencha os campos!')
-
+        alert('Preencha os campos!');
+        campos.style.border = '1px solid red';
     }
     //NOME:
 
     if (nomeInput.value === '') {
-        textName.innerHTML = 'invalido';
+        textName.innerHTML = 'Nome invalido';
         nomeInput.style.border = '1px solid red';
 
     } else if (nomeInput.value.length >= 3) {
-        nomeInput.style.border = '1px solid black';
+        nomeInput.style.border = '1px solid darkgrey';
         textName.innerHTML = '';
 
     }
@@ -52,9 +53,10 @@ formulario.addEventListener('submit', () => {
 
     if (sobrenomeInput.value === '') {
         sobrenomeInput.style.border = '1px solid red';
+        textSobrenome.innerHTML = 'Sobrenome invalido'
 
     } else if (sobrenomeInput.value.length >= 3) {
-        sobrenomeInput.style.border = '1px solid black';
+        sobrenomeInput.style.border = '1px solid darkgrey';
         textSobrenome.innerHTML = '';
 
     }
@@ -68,11 +70,11 @@ formulario.addEventListener('submit', () => {
     }
 
     //CPF:
-    if (cpf.value.length < 11) {
+    if (cpf.value.length < 14) {
         cpf.style.border = '1px solid red';
-        textcpf.innerHTML = 'CPF invalido'
-    } else if (cpf.value.length > 14) {
         textcpf.innerHTML = 'CPF invalido';
+    }else if (cpf.value.length ===14){
+
     }
 
 
@@ -80,16 +82,22 @@ formulario.addEventListener('submit', () => {
     if (senha.value === '') {
         senha.style.border = '1px solid red';
         textSenha.innerHTML = 'Senha invalida'
-    }else if(senha.value < 8){
+    } else if (senha.value < 8) {
         textSenha.innerHTML = 'Senha muito curta'
-    } else if(senha != repetirSenha){
+    } else if (senha.value != repetirSenha.value) {
         senha.style.border = '1px solid red'
+        textRsenha.innerHTML = 'senhas não coincidem'
+    }
+    else if (senha.value === repetirSenha.value) {
+        senha.style.border = '1px solid darkgrey';
+        repetirSenha.style.border = '1px solid darkgrey'
     }
 
 
-    if(senha != repetirSenha){
-        repetirSenha.style.border = '1px solid red'
-        textRsenha.innerHTML = 'senhas não coincidem'
+    //usuário:
+    if (usuario.value === '') {
+        usuario.style.border = '1px solid red';
+        textUsuario.innerHTML = 'Usuário invalido'
     }
 })
 

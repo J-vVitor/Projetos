@@ -23,7 +23,7 @@ main{
     width: 360px;
 }
 
-ul{
+ul{ margin: 1px;
     text-align: justify;
 }
 
@@ -67,5 +67,5 @@ footer a {
 
 main p {
     font-size: 12px;
-    margin: 9px;
+    margin: 8px;
 }
