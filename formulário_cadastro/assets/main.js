@@ -73,6 +73,7 @@ formulario.addEventListener('submit', () => {
     if (cpf.value.length < 14) {
         cpf.style.border = '1px solid red';
         textcpf.innerHTML = 'CPF invalido';
+        
     }else if (cpf.value.length ===14){
 
     }

@@ -23,6 +23,10 @@ main{
     width: 360px;
 }
 
+#formu p{
+    color: red;
+}
+
 ul{ margin: 1px;
     text-align: justify;
 }
@@ -69,3 +73,5 @@ main p {
     font-size: 12px;
     margin: 8px;
 }
+
+
