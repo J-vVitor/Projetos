@@ -4,23 +4,27 @@
     box-sizing: border-box;
 }
 body{
+    
+    
+    box-sizing: border-box;
     background: url(desktop-wallpaper-backgrounds-for-login-page-login-page.jpg) ;background-repeat: no-repeat;
     background-size: cover;
 }
 
 .texto{
 
+    font-size: 30px;
     color: white;
     text-align: left;
     position: absolute ;
-    top: 120px;
-    left: 130px;
-    width: 260px;
+    top: 200px;
+    left: 60px;
+    width: 30vw;
 }
 
 .texto p {
     text-align: left;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .form p {
@@ -30,12 +34,13 @@ body{
     justify-content: center;
 }
 
-div{ position: absolute;
+div{ position: relative;
+    margin: auto;
     padding: 8px;
-    top: 100px;
-    left: 460px;
-    width: 360px;
-    height: 230px;
+    top: 200px;
+    left: 540px;
+    width: 30vw;
+    height: 45vh;
     border-radius: 4px;
     background-color: white;
     display: inline-grid;
@@ -47,21 +52,22 @@ input{
 }
 
 div input{
+    
     color: rgb(91, 91, 91);
     padding: 10px;
     position: relative;
     left: 20px;
-    font-size: 8px;
+    font-size: 14px;
     border: 1px solid lightgray;
     border-radius: 3px;
-    width: 300px;
+    width: 26vw;
     height: 30px;
     margin: 3px;
     
 }
 
 div input:focus{
-    color: black;
+    color: rgb(128, 128, 128);
     background-color:rgba(196, 196, 196, 0.365);
     border: none;
 }
@@ -82,12 +88,12 @@ label{
 
 footer{
     position: absolute;
-    top: 370px;
-    left: 340px;
+    top: 600px;
+    left: 550px;
 }
 
 footer p,a{
-    font-size: 7px;
+    font-size: 20px;
 }
 
 footer p {
