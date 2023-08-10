@@ -16,19 +16,41 @@ menu{
     text-align: center;
 }
 
-menu li{font-size: 20px;
-    padding: 6px;
+menu li{
+    font-size: 20px;
     background-color: white;
-    margin-top: 2px;
+    padding: 6px;
+    margin-top: 4px;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    border-radius: 10px;
 }
 
+ul{ padding: 3px;
+    display: none;
+}
 
+#icon_menu p{
+    font-size: 30px;
+    height: 20%;
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+
+#icon_menu p:hover{
+    background-color: lightgrey;
+}
 
 header{
     text-align: center;
 }
 
 header h1{
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
