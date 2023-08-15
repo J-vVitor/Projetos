@@ -1,0 +1,225 @@
+@media (min-width:730px)and (max-width:1438px){
+    body{
+        overflow-x: hidden;
+    }
+
+    #buttonmenu,#labelmenu{
+        display: none;
+    }
+
+    /*HOME*/
+
+    div#main{
+        background-color: #0a1128;
+        height: 100vh;
+        width: 100%;
+        box-shadow: 0px 1px 4px #0a1128;
+    }
+
+    .desenho{ 
+        position: relative;
+        top: 440px;
+        left: 30%;
+       max-width: 300px;}
+
+       .interna {
+       position: relative;
+       left: 30%;
+        height: 60px;
+        color:white;
+        font-size: 3em;
+    }
+
+    .interna h1{
+        justify-content: center;
+        line-height: 40px;
+        padding: 1px;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .interna p{
+        padding: 10px;
+        width: 300px;
+        margin-right: 30px;
+        margin-top: 7px;
+        text-align: justify;
+        font-size: 20px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    /* 2A PARTE*/
+    div#intro{
+        width: 100%;
+    }
+    div#intro p{
+        text-indent: 10px;
+        padding: 6px;
+        width: 640px;
+        font-size: 18px;
+        text-align: left;
+    }
+    div#intro h1{
+        color: #0a1128;
+        font-size: 2.1em;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+     /* 3A PARTE*/
+
+     #top3{
+        background-color: #0a1128;
+        height: 100vh;
+        color: white;
+    }
+    
+    #top3 h2{
+        font-family:'Montserrat', sans-serif;
+        font-size: 2.4em;
+        padding: 26px;
+        text-align: center;
+        
+    }
+    
+    #top3 .p3{
+    
+        font-family: 'DM Sans',sans-serif;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divgrid p{
+   
+        line-height: 24px;
+        width: 80%;
+        font-size: 22px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        font-family:'DM Sans', sans-serif;
+    }
+
+    .divgrid label{
+        padding-right: 18px;
+        margin-right: 10px;
+        display: inline-flex;
+        transform: rotate(7deg);
+        font-size: 60px;
+        height: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.225);
+    }
+
+     /*GALERRY*/
+
+     .gallerygrid{
+        display: grid;
+        justify-items:center;
+        padding: 1px;
+        margin-left: 3px;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .gallerygrid img{
+        width: 340px;
+
+    }
+
+    /*CONTACT*/
+    #contact{
+        background-color: #0a1128;
+        width: 98.9vw;
+        height: 90vh;
+    }
+
+
+    #contact h3{ text-align: left;
+        color: white;
+        margin-left: 30px;
+        font-family:'Montserrat', sans-serif ;
+        font-size: 2.3em;
+    }
+    
+    #contact p{text-align: justify; 
+        color: white;
+        text-indent: 10px;
+        font-size: 20px;
+        margin-left: 20px;
+        width: 670px;
+        padding: 10px;
+        font-family: 'DM Sans',sans-serif;
+    }
+    
+    #contact h3,p{
+        padding-top:10px ;
+        padding-left: 30px;
+    }
+    
+    
+    form{ 
+        text-align: center;
+        height: 400px;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    #firstname,#lastname{
+        font-family: 'DM Sans',sans-serif;
+        display: inline;
+        width:40%;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    
+    #inputemail{
+        font-family: 'DM Sans',sans-serif;
+        width:92.5%;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    textarea{
+        height: 80px;
+        width:92.5%;
+        font-size:26px;
+    }
+    
+    button{
+        color: white;
+        border: 6px solid white;
+        background-color: #0a1128;
+        font-size: 14px;
+        font-family: 'DM Sans',sans-serif;
+        margin-top: 10px;
+        position: relative;
+        width: 140px;
+        height: 40px;
+    }
+    
+    #divbutton{
+        text-align: left;
+        width: 200px;
+       margin-left: 28px;
+    }
+
+    footer a{
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width:1300px){
+    #buttonmenu,#labelmenu{
+        display: none;
+    }
+}
