@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 #topo{
     background-color:white;
     height: 40px;
@@ -54,7 +55,7 @@ div#main{
 
     position: absolute;
     top: 15%;
-    left: 5%;
+    left: 10%;
     width: 600px;
     height: 60px;
     color:white;
@@ -63,26 +64,34 @@ div#main{
 }
 
 .interna h1{
-    font-size: 1.6em;
+  
+    justify-content: center;
+    line-height: 58px;
+    width: 400px;
+    padding: 3px;
+    font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
 }
 
 .interna p{
-    margin-top: 30px;
+
+    padding: 16px;
+    width: 500px;
+    margin-right: 30px;
+    margin-top: 28px;
     text-align: justify;
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'DM Sans', sans-serif;
 }
 
-.desenho{position: absolute;
+.desenho{position: relative;
         left: 55vw;
         top: 26%;
-       width: 600px;
+       max-width: 600px;
 }
-
 div#intro{
     text-indent: 60px;
-    font-size: 30px;
+    font-size: 27px;
     width: 50%;
     padding: 30px;
     margin: auto;
@@ -107,7 +116,7 @@ div#intro h1{
 #top3 h2{
     font-family:'Montserrat', sans-serif;
     font-size: 3em;
-    padding: 30px;
+    padding: 26px;
     text-align: center;
     
 }
@@ -116,8 +125,11 @@ div#intro h1{
 
     font-family: 'DM Sans',sans-serif;
     font-size: 25px;
-    padding: 10px;
+    width: 100%;
     text-align: center;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .divgrid p{
@@ -141,6 +153,8 @@ div#intro h1{
 }
 
 .divgrid label{
+    display: inline-flex;
+    transform: rotate(7deg);
     font-size: 80px;
     padding-right: 6px;
     height: 30px;
@@ -150,7 +164,6 @@ div#intro h1{
 
 .gallerygrid{
     display: grid;
-    
     grid-template-columns: repeat(3,1fr);
     justify-items:right;
     padding: 90px;
@@ -165,8 +178,8 @@ div#intro h1{
 
 .gallerygrid img:hover{
     
-    transition: all 0.4s;
-    transform: scale(1.06) rotate(1deg);
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.03) rotate(1deg);
     
 }
 
@@ -193,7 +206,7 @@ div#intro h1{
 #contact{
     background-color: #0a1128;
     width: 98.9vw;
-    height: 100vh;
+    height: 110vh;
 }
 
 #contact h3{ text-align: left;
@@ -225,13 +238,13 @@ form{
 
 #firstname,#lastname{
     display: inline;
-    width: 690px;
+    min-width:46%;
     height: 80px;
     margin-bottom: 10px;
 }
 
 #inputemail{
-    width: 1383px;
+    width:92.5%;
     height: 80px;
     margin-bottom: 10px;
 }
@@ -242,8 +255,8 @@ input{
 }
 
 textarea{
-    height: 140px;
-    width: 1383px;
+    height: 100px;
+    width:92.5%;
     font-size: 26px;
 }
 
@@ -255,15 +268,40 @@ button{
     font-family: 'DM Sans',sans-serif;
     margin-top: 10px;
     position: relative;
-    left: -590px;
+    
     width: 200px;
     height: 60px;
+}
+
+#divbutton{
+
+    text-align: left;
+    margin-left: 57px;
+    width: 600px;
 }
 
 button:hover{
     background-color: white;
     transition: all 300ms ease-in-out;
     color: black;
+}
+
+footer p{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'DM Sans',sans-serif;
+}
+
+footer a:hover{
+    background-color:rgba(211, 211, 211, 0.342);
+    padding: 2px;
+}
+
+#cora{
+    color:red;
 }
 
 

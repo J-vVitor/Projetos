@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style_phone.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="assets/style_pc.css" media="screen and (orientation: landscape)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,20 +21,22 @@
 </head>
 
 <body>
+    <input type="checkbox" id="buttonmenu">
+    <label for="buttonmenu" id="labelmenu">&#9776;</label>
     <section id="topo">
         <ul>
             <li><a href="#main">Home</a></li>
             <li><a href="#intro">Intro</a></li>
             <li><a href="#top3">Top 3</a> </li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
+            
         </ul>
     </section>
     <div id="main">
         <div class="interna ">
-            <h1>Titulo principal</h1>
-            <p>Lorem ipsum dolor sit amet cons Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro earum
-                perspiciatis dolore fugiat exercitationem culpa labore fugit placeat rem, voluptates quidem, ipsam nam,
-                saepe excepturi voluptate assumenda iure nulla temporibus?</p>
+            <h1>JANUARY BRINGS US FIREFOX 85</h1>
+            <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
         </div>
         <img class="desenho" src="assets/undraw_static_assets.svg" alt="">
     </div>
@@ -99,9 +103,13 @@
                 <br>
                 <textarea  id="areatxt" cols="40" rows="10"></textarea>
                 <br>
-                <button type="submit">Send Message</button>
+                <div id="divbutton"><button type="submit">Send Message</button></div>
         </form>
     </div>
+
+    <footer>
+        <p>Feito com por <label id="cora">❤</label> <a href="https://github.com/J-vVitor" target="_blank">João Vitor </a></p>
+    </footer>
 </body>
 
 </html>
