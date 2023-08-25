@@ -1,0 +1,64 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caixas{
+    margin-top: 10px;
+    border: 1px solid red;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.titulo , .img5 h1{
+    box-shadow: 1px 2px 3px rgba(204, 201, 201, 0.208);
+    color: #fffefd;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    background-color: rgba(71, 71, 71, 0.229);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(1px);
+    width: 600px;
+    margin: 300px auto;
+    text-align: center;
+}
+
+.texto{
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.texto h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+.img1{
+    background-image: url("img/imagem1.jpg");
+}
+
+.img2{
+    background-image: url(img/imagem2.jpg);
+}
+
+.img3{
+    background-image: url(img/imagem4.jpg);
+}
+
+.img4{
+    background-image: url(img/imagem5.jpg);
+}
+.img5{
+    background-image: url(img/imagem6.jpg);
+}
