@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    background-image: url('img/fundo.png');
+    background-repeat: repeat-x;
+    height: 250px;
+}
+
+#map{
+    top: 10px;
+    position: relative;
+    left: 830px;
+}
+
+#logo{
+    padding: 6px;
+    position: relative;
+    left: 450px;
+    bottom: 80px;
+}
+
+nav {
+    box-shadow: 1px 2px 3px #6b011f;
+    border-radius:4px ;
+    position: relative;
+    bottom: 64px;
+    left: 450px;
+    width: 600px;
+    padding: 10px;
+    background-color: #de003e;
+}
+
+nav a:hover{
+    color: #6b011f;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+}
+
+/* MAIN */
+
+main{
+    height: 100vh;
+    width: 860px;
+    margin:10px auto;
+    background-color: lightblue;
+}
+
+#principal{
+    display: flex;
+}
+
+#lateral{
+    width: 200px;
+    height: 400px;
+}
+
+#filhol{
+    margin-left: 16px;
+    display: inline-block;
+    width: 160px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 2px 2px 1px rgba(136, 136, 136, 0.582);
+}
+
+#filhol a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+#filhol a:hover{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    color: darkgrey;
+}
+
+#filhol a:hover::before{
+    padding: 2px;
+    content: url(img/marcador.png);
+}
+
+#filhol2{
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 160px;
+    background-color: white;
+}
+
+#filhol2 label{
+    padding: 3px;
+    margin-left: 3px;
+}
+
+#filhol2 input{
+    margin-left: 2px;
+    padding: 3px;
+    height: 26px;
+    width: 150px;
+}
+
+#filhol2 button{
+    border-radius: 2px;
+    margin: 4px;
+    padding: 4px;
+    border: none;
+    color: white;
+    background-color: #de003e;
+}
+
+#filhol2 button:hover{
+    background-color: #bc0136;
+}
+
+
+
+
+#primario{
+    margin-left: 10px;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+}
+
+#primario img, #secundario img{
+    padding-top: 10px;
+    width: 300px;
+}
+
+#primario p , #secundario p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+}
+
+#primario label , #secundario label{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    color: #bc0136;
+}
+
+#primario label:hover ,#secundario label:hover{
+    text-decoration: underline;
+}
+
+
+#mundo{
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
+
+
+#m1{
+    width: 300px;
+    height: 60px;
+}
+
+#m1 img , #m2 img{
+    margin: 4px 0px 0px 10px;
+    width: 70px;
+    float: left;
+}
+
+#m1 h3, #m2 h3{
+    color: #294c71;
+    font-size: 13px;
+}
+#m1 p, #m2 p{
+    text-align: justify;
+    font-size: 10px;
+}
+
+#m1 h3, #m1 p , #m2 h3 , #m2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    position: relative;
+    padding: 4px;
+    margin-left: 90px;
+    width: 200px;
+}
+
+
+#m2{
+    margin-top: 10px;
+    width: 300px;
+    height: 60px;
+}
+
+
+#secundario{
+    margin-left: 30px;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+}
+
+#noticias{
+    margin-top: 30px;
+}
+
+#not1 {
+    width: 300px;
+    height: 80px;
+    background-color: white;
+}
+
+#not1 img, #not2 img{
+    margin: 4px 0px 0px 10px;
+    width: 70px;
+    float: left;
+}
+
+#not1 h3, #not2 h3{
+    color: #294c71;
+    font-size: 13px;
+}
+#not1 p, #not2 p  {
+    text-align: justify;
+    font-size: 10px;
+}
+
+#not1 h3, #not1 p, #not2 h3, #not2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    position: relative;
+    padding: 4px;
+    margin-left: 90px;
+    width: 200px;
+}
+
+#not2{
+    width: 300px;
+    height: 86px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+h2{
+    padding: 2px;
+    background-color:#294c71;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
