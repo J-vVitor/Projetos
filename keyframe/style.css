@@ -1,0 +1,18 @@
+
+@keyframes cor{
+    from{
+        background-color: rgb(255, 0, 0);
+    }
+
+    to{ background-color: black;
+
+    }
+}
+
+div{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    animation-name: cor;
+    animation-duration: 10s;
+}
