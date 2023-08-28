@@ -1,11 +1,11 @@
 
 @keyframes cor{
     from{
-        background-color: rgb(255, 0, 0);
+        background-color: black;
     }
 
-    to{ background-color: black;
-
+    to{ background-color: lightgrey;
+        border-radius: 50%;
     }
 }
 
@@ -14,5 +14,8 @@ div{
     height: 400px;
     width: 400px;
     animation-name: cor;
-    animation-duration: 10s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 }
