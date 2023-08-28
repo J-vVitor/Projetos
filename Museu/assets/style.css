@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #2d281f;
+    height: 160px;
+}
+
+header div{
+    padding: 4px;
+    top: 40px;
+    left: 210px;
+    position: relative;
+    width: 300px;
+}
+
+header div::before{
+    content: "";
+    position: absolute;
+    width:12px;
+    height: 2px;
+    background-color:#a16f19;
+    top: 27px;
+    left: 240px;
+    border-radius: 3px;
+}
+
+nav{
+    margin-right: 200px;
+    display: flex;
+    float: right; 
+}
+
+nav li{
+    padding: 6px;
+    list-style-type: none;
+}
+
+nav li a {
+    right: 40px;
+    position: relative;
+    font-size: 18px;
+    color: #976515;
+    text-decoration: none;
+}
+
+nav li a::before{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    width: 0;
+    background-color: #976515;
+    border-radius: 4px;
+    height: 3px;
+}
+
+nav li a:hover::before{
+    left: 1px;
+    width: 100%;
+    transition: all 600ms ease;
+}
+
+/* MAIN */
+
+#main{
+    bottom: 60px;
+    position: relative;
+    margin: auto;
+    height: 150vh;
+    width: 1200px;
+}
+
+#conteudo{
+    margin-left: 40px;
+    float: left;
+}
+
+#main aside{
+    margin-right: 60px;
+    float: right;
+}
+
+/* ASIDE */
+
+#formu{
+    padding: 10px;
+    background:#cdc8b5;
+    width: 350px;
+    height: 160px;
+}
+
+#formu h4{
+    margin-top: 20px;
+    color: #aa6e39;
+}
+
+#formu input[type='number']{
+    width: 60px;
+}
+
+#perguntas{
+    padding: 6px;
+}
+
+#formu button{
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #9e9279;
+    margin-top: 10px;
+    width: 320px;
+    height: 40px;
+}
+
+#formu button:hover{
+    background-color: #5c5547;
+}
+
+#galery{
+    margin-top: 4px;
+    width:350px ;
+    background-color:#cdc4af;
+    height: 300px;
+}
+
+#galery img{
+    width: 93px;
+    height: 93px;
+}
+
+#galery a{
+    margin-left: 30px;
+    background-image: url(img/fundo-foto.png) ;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    padding: 16px;
+}
+
+#galery h4{
+    padding: 4px;
+    margin: 0px 0px 5px 10px;
+    color: #472c14;
+}
+
