@@ -73,7 +73,7 @@ nav li a:hover::before{
     bottom: 60px;
     position: relative;
     margin: auto;
-    height: 150vh;
+    height: 100vh;
     width: 1200px;
 }
 
@@ -85,6 +85,51 @@ nav li a:hover::before{
 #main aside{
     margin-right: 60px;
     float: right;
+}
+
+
+/* CONTEÚDO */
+
+#conteudo{
+    height: 900px;
+}
+
+#conteudo h3{
+    margin-bottom: 6px;
+    color: #386938;
+}
+
+#video{
+    margin-left: 10px;
+    padding: 6px;
+}
+#mapa{
+    position: relative;
+    bottom:394px;
+    right: 10px;
+    float: right;
+}
+
+#exposicoes{
+    width: 360px;
+}
+#exposicoes li{
+    margin: 6px;
+    padding: 4px;
+}
+
+#exposicoes ul{
+    margin-left: 10px;
+}
+
+#txtmapa{
+    padding: 6px;
+    font-size: 16px;
+    width: 300px;
+}
+
+#exposicoes, #txtmapa{
+    margin-top: 10px;
 }
 
 /* ASIDE */
@@ -149,4 +194,31 @@ nav li a:hover::before{
     margin: 0px 0px 5px 10px;
     color: #472c14;
 }
+
+/* FOOTER */
+
+
+ footer div{
+    width: 600px;
+    margin: auto;
+ }
+
+ footer img{
+    position: relative;
+    bottom: 160px;
+ }
+
+
+ #rodap{
+    position: relative;
+    bottom: 130px;
+    left: 270px;
+    width: 600px;
+ }
+
+ #rodap li a {
+    color: #2d281f;
+ }
+
+ 
 
